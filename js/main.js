@@ -42,3 +42,30 @@ if ('IntersectionObserver' in window) {
 } else {
   document.querySelectorAll('.reveal').forEach((el) => el.classList.add('visible'));
 }
+
+// Filtro de projetos por tecnologia (gerado a partir das tags dos cartões).
+(() => {
+  const box = document.querySelector('.filters');
+  const cards = [...document.querySelectorAll('#projetos .card')];
+  if (!box || !cards.length) return;
+
+  const techs = [...new Set(cards.flatMap((c) => [...c.querySelectorAll('.tags span')].map((t) => t.textContent)))]
+    .sort((a, b) => a.localeCompare(b, 'pt-BR'));
+  const names = ['Todos', ...techs];
+
+  names.forEach((name, i) => {
+    const b = document.createElement('button');
+    b.type = 'button';
+    b.textContent = name;
+    b.setAttribute('aria-pressed', String(i === 0));
+    b.addEventListener('click', () => {
+      box.querySelectorAll('button').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+      cards.forEach((c) => {
+        const has = name === 'Todos' || [...c.querySelectorAll('.tags span')].some((t) => t.textContent === name);
+        c.hidden = !has;
+      });
+    });
+    box.append(b);
+  });
+  box.hidden = false;
+})();
