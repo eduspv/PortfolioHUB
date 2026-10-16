@@ -30,7 +30,10 @@ O histórico completo e verdadeiro está no Git: `git log --oneline --decorate`.
 
 | Versão/commit | Descrição |
 |---|---|
-| `v1.0.0` | Versão inicial. |
+| `v1.0.0` (`8c8c766`) | Versão inicial: estrutura, site e documentação. |
+| `0722c81` | `feat:` filtro de projetos por tecnologia. |
+| `beaa7a2` | `feat:` alternância de tema claro e escuro. |
+| `v1.1.0` | Marca as melhorias acima. |
 
 ## Referências
 

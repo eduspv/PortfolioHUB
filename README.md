@@ -4,7 +4,7 @@ Repositório de portfólio e versionamento criado para o **Desafio Bootcamp I �
 
 - **Site (GitHub Pages):** https://eduspv.github.io/PortfolioHUB/
 - **Repositório:** https://github.com/eduspv/PortfolioHUB
-- **Versão atual:** ver [tags](https://github.com/eduspv/PortfolioHUB/tags) · versão inicial: `v1.0.0`
+- **Versão atual:** `v1.1.0` · versão inicial: `v1.0.0` ([tags](https://github.com/eduspv/PortfolioHUB/tags))
 
 ## Estudante
 
@@ -84,6 +84,10 @@ Detalhes e histórico em [documentacao/versionamento.md](documentacao/versioname
 ## Versão 1.0
 
 A `v1.0.0` contém: estrutura de diretórios, site com seções Sobre, Projetos, Competências e Contato, layout responsivo, menu acessível, animações leves e toda a documentação base.
+
+## Melhorias após a v1.0
+
+- `v1.1.0`: filtro de projetos por tecnologia e alternância de tema claro/escuro.
 
 ## Manutenção
 
