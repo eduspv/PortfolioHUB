@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Entrega Intermediária — PortfolioHUB — Eduardo Vidal</title>
+<style>
+  @page { size: A4; margin: 2.2cm 2cm; }
+  body { font: 11.5pt/1.55 Georgia, "Times New Roman", serif; color: #1a1a1a; }
+  a { color: #0b5ca8; }
+  h1, h2, h3 { font-family: "Segoe UI", Arial, sans-serif; color: #0f2a47; }
+  h2 { font-size: 15pt; border-bottom: 2px solid #38bdf8; padding-bottom: 3pt; margin-top: 20pt; page-break-after: avoid; }
+  .capa { text-align: center; height: 24cm; display: flex; flex-direction: column; justify-content: center; page-break-after: always; }
+  .capa h1 { font-size: 26pt; margin: 8pt 0; }
+  .capa p { margin: 4pt 0; font-size: 13pt; }
+  table { border-collapse: collapse; width: 100%; font-size: 10.5pt; margin: 8pt 0; }
+  th, td { border: 1px solid #b8c4d4; padding: 4pt 7pt; text-align: left; vertical-align: top; }
+  th { background: #e8f1fa; }
+  code { font-family: Consolas, monospace; font-size: 10pt; background: #f1f4f8; padding: 0 3pt; }
+  .pendente { background: #fff4d6; border-left: 4px solid #e0a100; padding: 6pt 10pt; margin: 8pt 0; }
+  img { max-width: 100%; border: 1px solid #b8c4d4; }
+  figure { margin: 8pt 0; text-align: center; page-break-inside: avoid; }
+  figcaption { font-size: 9.5pt; color: #555; }
+  .duas img { max-height: 9cm; max-width: 48%; }
+</style>
+</head>
+<body>
+
+<section class="capa">
+  <p>UniCEUB · Ciência da Computação</p>
+  <h1>Desafio — Entrega Intermediária: Criação de Repositório com Versionamento</h1>
+  <p>Bootcamp I</p>
+  <p style="margin-top:40pt"><strong>Eduardo Serra Pierre Vidal</strong></p>
+  <p>Curso: Ciência da Computação</p>
+  <p>16 de outubro de 2026</p>
+  <p style="margin-top:30pt"><a href="https://github.com/eduspv/PortfolioHUB">github.com/eduspv/PortfolioHUB</a></p>
+</section>
+
+<h2>1. Introdução</h2>
+<p>Esta atividade pede a criação de um repositório no GitHub que reúna projetos acadêmicos e pessoais e demonstre planejamento, organização de diretórios, uso de Git com uma versão 1.0 e alterações posteriores, documentação em README, publicação no GitHub Pages e integração com o LinkedIn. O resultado é o repositório <strong>PortfolioHUB</strong> e seu site.</p>
+
+<h2>2. Planejamento</h2>
+<p>Foram analisados os 13 repositórios públicos de <a href="https://github.com/eduspv">github.com/eduspv</a>, e selecionados os que têm autoria e descrição verificáveis. Dois repositórios (<code>pocket-planner-*</code>) ficaram de fora por falta de clareza sobre a autoria.</p>
+<table>
+<tr><th>Diretório</th><th>Função e justificativa</th></tr>
+<tr><td><code>index.html</code>, <code>css/</code>, <code>js/</code></td><td>Site em HTML, CSS e JS puros: publica direto no GitHub Pages, sem build.</td></tr>
+<tr><td><code>projetos-academicos/</code>, <code>projetos-pessoais/</code></td><td>Documentação de cada projeto, com links para os repositórios originais (sem copiar código).</td></tr>
+<tr><td><code>documentacao/</code></td><td>Planejamento, versionamento e integração com o LinkedIn.</td></tr>
+<tr><td><code>entrega/</code></td><td>Roteiro da apresentação e este documento.</td></tr>
+<tr><td><code>assets/images/</code></td><td>Capturas de tela reais do site publicado.</td></tr>
+</table>
+
+<h2>3. Desenvolvimento</h2>
+<p><strong>Tecnologias:</strong> HTML5, CSS3, JavaScript (sem dependências), Git e GitHub, GitHub Pages. O site tem as seções Sobre, Projetos, Competências e Contato, layout responsivo, menu acessível (link de salto, foco visível, <code>aria-*</code>), animações leves que respeitam <code>prefers-reduced-motion</code>, filtro de projetos por tecnologia e tema claro/escuro.</p>
+<table>
+<tr><th>Tipo</th><th>Projeto</th><th>Tecnologias</th></tr>
+<tr><td>Acadêmico</td><td><a href="https://github.com/eduspv/Study-Hub-Eduardo-Vidal-">Study Hub</a></td><td>Markdown, Git</td></tr>
+<tr><td>Acadêmico</td><td><a href="https://github.com/eduspv/exerciciosrafael">Exercícios de HTML, CSS e JS</a></td><td>HTML, CSS, JavaScript</td></tr>
+<tr><td>Pessoal</td><td><a href="https://github.com/eduspv/Plataforma-Saude-Mental">SASBIO — Plataforma de Saúde Mental</a></td><td>Go, Gin, PostgreSQL, React, TypeScript</td></tr>
+<tr><td>Pessoal</td><td><a href="https://github.com/eduspv/Chatbot-Whatsapp">Chatbot WhatsApp</a></td><td>Python, Flask, Twilio</td></tr>
+<tr><td>Pessoal</td><td><a href="https://github.com/eduspv/Deleting-Instagram-Bot">Instagram Cleaner Bot</a></td><td>Python, Selenium</td></tr>
+<tr><td>Pessoal</td><td><a href="https://github.com/eduspv/portfolio">Portfólio Tech Showcase</a> (<a href="https://portfolio-edu-c1a4.vercel.app">demo</a>)</td><td>React, TypeScript, Vite</td></tr>
+<tr><td>Pessoal</td><td><a href="https://github.com/eduspv/Anisio-David-Website">Site Anisio David</a></td><td>React, TypeScript, Tailwind</td></tr>
+<tr><td>Pessoal</td><td><a href="https://github.com/eduspv/Site-Ricardo-Marques">Site Ricardo Marques</a></td><td>HTML, CSS, JavaScript</td></tr>
+</table>
+
+<h2>4. Versionamento</h2>
+<p>Versionamento é o registro organizado das mudanças do código, com autor, data e mensagem. O repositório foi iniciado com <code>git init</code>, recebeu um commit inicial e a tag anotada <code>v1.0.0</code>; as melhorias seguintes entraram em commits separados no padrão Conventional Commits, e a tag <code>v1.1.0</code> marca o resultado.</p>
+<p><strong>Histórico real</strong> (saída de <code>git log</code>):</p>
+<table>
+<tr><th>Commit</th><th>Data</th><th>Mensagem</th><th>Tag</th></tr>
+<tr><td><code>8c8c766</code></td><td>2026-10-16</td><td>feat: estrutura inicial do PortfolioHUB e site v1.0</td><td><code>v1.0.0</code></td></tr>
+<tr><td><code>0722c81</code></td><td>2026-10-16</td><td>feat: filtro de projetos por tecnologia</td><td></td></tr>
+<tr><td><code>beaa7a2</code></td><td>2026-10-16</td><td>feat: alternância de tema claro e escuro</td><td></td></tr>
+<tr><td><code>32ade2e</code></td><td>2026-10-16</td><td>docs: registra histórico de versões e a v1.1.0</td><td><code>v1.1.0</code></td></tr>
+</table>
+<p>Commits: <a href="https://github.com/eduspv/PortfolioHUB/commits/main">github.com/eduspv/PortfolioHUB/commits/main</a> · Tags: <a href="https://github.com/eduspv/PortfolioHUB/tags">github.com/eduspv/PortfolioHUB/tags</a>. A existência das duas tags no remoto foi conferida com <code>git ls-remote --tags origin</code>.</p>
+
+<h2>5. GitHub Pages</h2>
+<p>O site está publicado a partir da branch <code>main</code> (raiz) em <a href="https://eduspv.github.io/PortfolioHUB/">https://eduspv.github.io/PortfolioHUB/</a>. Foram testados: resposta HTTP 200 da página, do CSS e do JS, e dos links externos dos projetos. As capturas abaixo foram geradas a partir do site publicado.</p>
+<figure><img src="../assets/images/site-desktop.png" alt="Captura de tela do site em desktop"><figcaption>Figura 1 — Site publicado, visão desktop (1280 px).</figcaption></figure>
+<figure><img src="../assets/images/site-mobile.png" alt="Captura de tela do site em largura móvel" style="max-height:11cm"><figcaption>Figura 2 — Site publicado em largura de 390 px (celular).</figcaption></figure>
+
+<h2>6. LinkedIn</h2>
+<div class="pendente"><strong>Pendente de ação manual.</strong> Os textos (título, descrição, competências e links) estão prontos em <code>documentacao/integracao-linkedin.md</code>, mas o projeto ainda não foi adicionado ao perfil. Após a inclusão, inserir aqui uma captura de tela da seção Projetos.</div>
+<p>Perfil: <a href="https://www.linkedin.com/in/eduardo-s-p-vidal/">linkedin.com/in/eduardo-s-p-vidal</a></p>
+
+<h2>7. Apresentação</h2>
+<div class="pendente"><strong>Pendente de ação manual.</strong> O roteiro de cinco minutos está em <code>entrega/roteiro-apresentacao.md</code>. O vídeo ainda não foi gravado nem publicado no YouTube. Link do vídeo: <em>a preencher</em>.</div>
+
+<h2>8. Considerações finais</h2>
+<p>A atividade mostrou na prática como o Git organiza a evolução de um projeto: commits pequenos e descritivos tornam o histórico legível, as tags marcam versões e o GitHub, junto com o GitHub Pages, transforma o repositório em uma vitrine pública. Para a carreira em desenvolvimento, um repositório bem documentado e com histórico real é uma evidência concreta de organização e de prática profissional.</p>
+
+<h2>9. Links</h2>
+<table>
+<tr><th>Item</th><th>Link</th></tr>
+<tr><td>Repositório</td><td><a href="https://github.com/eduspv/PortfolioHUB">https://github.com/eduspv/PortfolioHUB</a></td></tr>
+<tr><td>Site (GitHub Pages)</td><td><a href="https://eduspv.github.io/PortfolioHUB/">https://eduspv.github.io/PortfolioHUB/</a></td></tr>
+<tr><td>GitHub</td><td><a href="https://github.com/eduspv">https://github.com/eduspv</a></td></tr>
+<tr><td>LinkedIn</td><td><a href="https://www.linkedin.com/in/eduardo-s-p-vidal/">https://www.linkedin.com/in/eduardo-s-p-vidal/</a></td></tr>
+<tr><td>Vídeo no YouTube</td><td><em>pendente</em></td></tr>
+</table>
+</body>
+</html>

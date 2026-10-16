@@ -97,6 +97,11 @@ A `v1.0.0` contém: estrutura de diretórios, site com seções Sobre, Projetos,
 - Mudanças relevantes recebem uma nova tag (`v1.1.0`, `v1.2.0`, ...).
 - Antes de publicar, confira links e a ausência de credenciais.
 
+## Entrega
+
+- [PDF de entrega](entrega/PortfolioHUB-Entrega-Eduardo-Vidal.pdf) (fonte: [documento-entrega.html](entrega/documento-entrega.html))
+- Capturas reais do site em `assets/images/`
+
 ## Documentação
 
 - [Planejamento](documentacao/planejamento.md)
