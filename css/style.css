@@ -102,3 +102,16 @@ h3 { color: var(--muted); font-size: 1.05rem; text-transform: uppercase; letter-
 .filters button[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
 .card[hidden] { display: none; }
 .no-results { color: var(--muted); }
+
+/* Tema claro */
+:root[data-tema="light"] { --bg: #f6f9fc; --surface: #ffffff; --border: #d5dfeb; --text: #0f1b2d; --muted: #4a5d78; --accent: #0369a1; --accent-ink: #ffffff; }
+:root[data-tema="light"] .site-header { background: rgba(246, 249, 252, .9); }
+:root[data-tema="light"] .tags span { background: rgba(3, 105, 161, .08); border-color: rgba(3, 105, 161, .3); }
+@media (prefers-color-scheme: light) {
+  :root:not([data-tema="dark"]) { --bg: #f6f9fc; --surface: #ffffff; --border: #d5dfeb; --text: #0f1b2d; --muted: #4a5d78; --accent: #0369a1; --accent-ink: #ffffff; }
+  :root:not([data-tema="dark"]) .site-header { background: rgba(246, 249, 252, .9); }
+  :root:not([data-tema="dark"]) .tags span { background: rgba(3, 105, 161, .08); border-color: rgba(3, 105, 161, .3); }
+}
+.theme-toggle { margin-left: auto; margin-right: .8rem; background: none; border: 1px solid var(--border); color: var(--text); font-size: 1.1rem; padding: .2rem .7rem; border-radius: 8px; cursor: pointer; }
+.theme-toggle:hover { border-color: var(--accent); }
+@media (min-width: 721px) { .menu { margin-left: .5rem; } }

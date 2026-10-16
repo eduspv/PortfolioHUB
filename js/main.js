@@ -69,3 +69,15 @@ if ('IntersectionObserver' in window) {
   });
   box.hidden = false;
 })();
+
+// Alternância de tema claro/escuro (respeita a preferência do sistema).
+(() => {
+  const root = document.documentElement;
+  const btn = document.querySelector('.theme-toggle');
+  const current = () => root.dataset.tema || (matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+  btn.addEventListener('click', () => {
+    const next = current() === 'light' ? 'dark' : 'light';
+    root.dataset.tema = next;
+    try { localStorage.setItem('tema', next); } catch (e) { /* armazenamento indisponível */ }
+  });
+})();
