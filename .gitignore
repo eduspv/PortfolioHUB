@@ -1,0 +1,19 @@
+# Segredos e ambiente
+.env
+.env.*
+*.pem
+*.key
+
+# Sistema e editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Dependências e builds
+node_modules/
+dist/
+
+# Arquivos temporários
+*.log
+*.tmp
