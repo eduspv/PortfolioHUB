@@ -24,8 +24,9 @@ Os códigos permanecem nos repositórios originais. Descrições baseadas nos RE
 
 ## Portfólio Tech Showcase
 
-- **Repositório:** https://github.com/eduspv/portfolio · **Demo:** https://portfolio-edu-c1a4.vercel.app
-- **O que é:** primeira versão de portfólio, gerada com Lovable e publicada na Vercel. O PortfolioHUB é a versão em GitHub Pages.
+- **Repositório:** https://github.com/eduspv/portfolio
+- **O que é:** primeira versão de portfólio, gerada com Lovable. O PortfolioHUB é a versão em GitHub Pages.
+- **Demo:** a publicação antiga na Vercel exige login e por isso não é listada.
 - **Tecnologias:** React, TypeScript, Vite.
 
 ## Sites institucionais

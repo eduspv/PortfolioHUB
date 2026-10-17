@@ -25,6 +25,10 @@ Dois repositórios (`pocket-planner-*`) foram deixados de fora por falta de clar
 | Pasta `entrega` | Material de apresentação e PDF. |
 | Publicação pela branch `main` (raiz) | Configuração mais simples do Pages. |
 
+## Decisões da v2.0
+
+O site foi redesenhado após a v1.1: nova identidade visual, destaque para o projeto principal e seção Sobre com a trajetória profissional. A demo da Vercel foi retirada por exigir login.
+
 ## Etapas
 
 1. Levantamento dos repositórios.

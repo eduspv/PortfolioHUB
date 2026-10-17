@@ -4,7 +4,7 @@ Repositório de portfólio e versionamento criado para o **Desafio Bootcamp I �
 
 - **Site (GitHub Pages):** https://eduspv.github.io/PortfolioHUB/
 - **Repositório:** https://github.com/eduspv/PortfolioHUB
-- **Versão atual:** `v1.1.0` · versão inicial: `v1.0.0` ([tags](https://github.com/eduspv/PortfolioHUB/tags))
+- **Versão atual:** `v2.0.0` · versão inicial: `v1.0.0` ([tags](https://github.com/eduspv/PortfolioHUB/tags))
 
 ## Estudante
 
@@ -22,7 +22,7 @@ O desafio pede um repositório no GitHub que demonstre planejamento, organizaç�
 
 ## Tecnologias
 
-HTML5, CSS3 e JavaScript puros, sem build nem dependências, para publicar direto no GitHub Pages. Git e GitHub para versionamento.
+HTML5, CSS3 e JavaScript puros, sem build nem dependências, para publicar direto no GitHub Pages. Fontes (Space Grotesk, Instrument Serif e JetBrains Mono) carregadas do Google Fonts. Git e GitHub para versionamento.
 
 ## Estrutura
 
@@ -55,7 +55,7 @@ Os projetos continuam nos repositórios originais; aqui há apenas links e docum
 | Pessoal | SASBIO — Plataforma de Saúde Mental | Go, Gin, PostgreSQL, React, TypeScript | [link](https://github.com/eduspv/Plataforma-Saude-Mental) |
 | Pessoal | Chatbot WhatsApp | Python, Flask, Twilio | [link](https://github.com/eduspv/Chatbot-Whatsapp) |
 | Pessoal | Instagram Cleaner Bot | Python, Selenium | [link](https://github.com/eduspv/Deleting-Instagram-Bot) |
-| Pessoal | Portfólio Tech Showcase | React, TypeScript, Vite | [link](https://github.com/eduspv/portfolio) · [demo](https://portfolio-edu-c1a4.vercel.app) |
+| Pessoal | Portfólio Tech Showcase | React, TypeScript, Vite | [link](https://github.com/eduspv/portfolio) |
 | Pessoal | Site Anisio David | React, TypeScript, Tailwind | [link](https://github.com/eduspv/Anisio-David-Website) |
 | Pessoal | Site Ricardo Marques | HTML, CSS, JavaScript | [link](https://github.com/eduspv/Site-Ricardo-Marques) |
 
@@ -88,6 +88,7 @@ A `v1.0.0` contém: estrutura de diretórios, site com seções Sobre, Projetos,
 ## Melhorias após a v1.0
 
 - `v1.1.0`: filtro de projetos por tecnologia e alternância de tema claro/escuro.
+- `v2.0.0`: redesign visual completo (nova identidade, destaque do SASBIO, lista de projetos, seção Bootcamp I com linha do tempo) e seção Sobre com a trajetória profissional. O alternador de tema foi removido.
 
 ## Manutenção
 

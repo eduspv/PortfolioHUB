@@ -33,7 +33,10 @@ O histórico completo e verdadeiro está no Git: `git log --oneline --decorate`.
 | `v1.0.0` (`8c8c766`) | Versão inicial: estrutura, site e documentação. |
 | `0722c81` | `feat:` filtro de projetos por tecnologia. |
 | `beaa7a2` | `feat:` alternância de tema claro e escuro. |
-| `v1.1.0` | Marca as melhorias acima. |
+| `v1.1.0` (`32ade2e`) | Marca as melhorias acima. |
+| `229dd9c` | `docs:` PDF de entrega e capturas de tela. |
+| `2f4d53d` | `feat:` redesign visual completo e trajetória profissional na seção Sobre. |
+| `v2.0.0` | Redesign, documentação e PDF atualizados. |
 
 ## Referências
 
