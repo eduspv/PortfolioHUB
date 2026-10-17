@@ -39,4 +39,4 @@ O site foi redesenhado após a v1.1: nova identidade visual, destaque para o pro
 
 ## Itens que dependem de ação manual
 
-Gravação e publicação do vídeo no YouTube, atualização do LinkedIn e envio do PDF.
+Realizadas manualmente: vídeo no YouTube (https://youtu.be/dOqBznyDTQo) e projeto no LinkedIn. Resta apenas o envio do PDF.

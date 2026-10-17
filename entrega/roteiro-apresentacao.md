@@ -48,4 +48,4 @@ Capítulos:
 3:30 GitHub Pages
 4:20 LinkedIn e conclusão
 
-> Gravação e publicação do vídeo: **pendente (ação manual)**. Sugestão: OBS Studio ou Xbox Game Bar (Win+G), vídeo "não listado" ou público, conforme o professor pedir.
+> Vídeo publicado: https://youtu.be/dOqBznyDTQo

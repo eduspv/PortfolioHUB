@@ -1,6 +1,6 @@
 # Integração com o LinkedIn
 
-> **Status:** textos prontos. A inclusão no LinkedIn é manual e **ainda não foi realizada**.
+> **Status:** projeto adicionado manualmente ao perfil em out. de 2026. Captura em `entrega/imagem-linkedin-portfoliohub.png`.
 
 ## Título do projeto
 
