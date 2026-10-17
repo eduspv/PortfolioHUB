@@ -17,3 +17,6 @@ dist/
 # Arquivos temporários
 *.log
 *.tmp
+
+# Prévias locais
+.preview/
