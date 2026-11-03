@@ -4,15 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Eduardo Vidal | Desenvolvimento de software</title>
-  <meta name="description" content="Portfólio de Eduardo Serra Pierre Vidal, estudante de Ciência da Computação (UniCEUB) com interesse em desenvolvimento de software e cibersegurança.">
+  <meta name="description" content="Portfólio de Eduardo Serra Pierre Vidal, estudante de Ciência da Computação (UniCEUB) com foco em desenvolvimento de software e interesse em segurança de software.">
   <meta name="theme-color" content="#efece4">
   <meta property="og:title" content="Eduardo Vidal | Desenvolvimento de software">
-  <meta property="og:description" content="Projetos acadêmicos e pessoais em Go, React, TypeScript e Python.">
+  <meta property="og:description" content="Projetos em Go, React, Next.js, TypeScript e Python.">
   <meta property="og:type" content="website">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23121317'/%3E%3Ctext x='16' y='22' font-family='monospace' font-size='15' font-weight='700' text-anchor='middle' fill='%23c8f542'%3EEV%3C/text%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Great+Vibes&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="css/style.css">
   <script>document.documentElement.classList.add('js');</script>
   <script src="js/main.js" defer></script>
@@ -29,8 +29,8 @@
     <a class="logo" href="#inicio" aria-label="Eduardo Vidal, início"><span>EV</span><small>Eduardo<br>Vidal</small></a>
     <nav class="nav" aria-label="Navegação principal">
       <ul class="nav-links" id="menu">
+        <li><a href="#destaque">Destaque</a></li>
         <li><a href="#projetos">Projetos</a></li>
-        <li><a href="#bootcamp">Bootcamp I</a></li>
         <li><a href="#competencias">Competências</a></li>
         <li><a class="nav-cta" href="#contato">Contato</a></li>
       </ul>
@@ -49,7 +49,7 @@
             <span class="line"><span>do <em>banco de dados</em></span></span>
             <span class="line"><span>à interface.</span></span>
           </h1>
-          <p class="lead">Sou <strong>Eduardo Serra Pierre Vidal</strong>, estudante de Ciência da Computação. Gosto de construir projetos completos (frontend, backend e banco) e tenho interesse em <strong>desenvolvimento de software</strong> e <strong>cibersegurança</strong>.</p>
+          <p class="lead">Sou <strong>Eduardo Serra Pierre Vidal</strong>, estudante de Ciência da Computação. Gosto de construir projetos completos (frontend, backend e banco) e quero me aprofundar em <strong>segurança de software</strong>.</p>
           <div class="cta-row">
             <a class="pill pill-solid magnetic" href="#projetos">Ver projetos <span aria-hidden="true">↓</span></a>
             <a class="pill magnetic" href="https://github.com/eduspv" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
@@ -57,21 +57,17 @@
           </div>
         </div>
 
-        <aside class="terminal" aria-label="Histórico real de commits deste repositório">
-          <div class="terminal-bar"><i></i><i></i><i></i><span class="mono">PortfolioHUB — git log</span></div>
-          <pre class="mono" id="term"><span class="t-dim">$</span> git log --oneline --decorate -5
-<span class="t-ref">(tag: v2.0.0, HEAD -&gt; main)</span> docs: PDF e documentação v2.0
-<span class="t-hash">2f4d53d</span> feat: redesign visual completo
-<span class="t-hash">229dd9c</span> docs: adiciona PDF de entrega
-<span class="t-hash">32ade2e</span> <span class="t-ref">(tag: v1.1.0)</span> docs: registra histórico
-<span class="t-hash">beaa7a2</span> feat: alternância de tema<span class="caret"></span></pre>
-        </aside>
+        <div class="hero-side">
+        <figure class="portrait">
+          <img src="assets/images/retrato.png" alt="Retrato de Eduardo Serra Pierre Vidal" width="422" height="616" fetchpriority="high">
+        </figure>
+        </div>
       </div>
 
       <div class="marquee" aria-label="Tecnologias utilizadas">
         <div class="marquee-track mono" aria-hidden="true">
-          <span>Go</span><span>TypeScript</span><span>React</span><span>Python</span><span>PostgreSQL</span><span>Gin</span><span>Flask</span><span>Tailwind CSS</span><span>Docker</span><span>Git</span>
-          <span>Go</span><span>TypeScript</span><span>React</span><span>Python</span><span>PostgreSQL</span><span>Gin</span><span>Flask</span><span>Tailwind CSS</span><span>Docker</span><span>Git</span>
+          <span>Go</span><span>TypeScript</span><span>React</span><span>Next.js</span><span>Python</span><span>PostgreSQL</span><span>MongoDB</span><span>Gin</span><span>Flask</span><span>Tailwind CSS</span><span>Docker</span><span>Git</span>
+          <span>Go</span><span>TypeScript</span><span>React</span><span>Next.js</span><span>Python</span><span>PostgreSQL</span><span>MongoDB</span><span>Gin</span><span>Flask</span><span>Tailwind CSS</span><span>Docker</span><span>Git</span>
         </div>
       </div>
     </section>
@@ -124,6 +120,7 @@
           <h2>Trabalhos<br><em>selecionados</em></h2>
           <div class="filters" role="group" aria-label="Filtrar projetos" hidden>
             <button type="button" data-f="todos" aria-pressed="true">Todos</button>
+            <button type="button" data-f="profissional" aria-pressed="false">Profissionais</button>
             <button type="button" data-f="academico" aria-pressed="false">Acadêmicos</button>
             <button type="button" data-f="pessoal" aria-pressed="false">Pessoais</button>
             <button type="button" data-f="site" aria-pressed="false">Sites</button>
@@ -131,17 +128,57 @@
         </div>
 
         <ol class="rows">
+          <li class="row reveal" data-cat="profissional">
+            <a href="https://www.sasbio.com.br" target="_blank" rel="noopener">
+              <span class="row-n mono">01</span>
+              <span class="row-main"><span class="row-title">SASBIO</span><span class="row-desc">Site institucional da SASBIO: biossegurança hospitalar, biodescontaminação e saúde.</span></span>
+              <span class="row-meta mono"><span class="row-cat">Profissional</span><span>No ar · sasbio.com.br</span></span>
+              <span class="row-go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li class="row reveal" data-cat="profissional">
+            <a href="https://rmadvassociados.com.br" target="_blank" rel="noopener">
+              <span class="row-n mono">02</span>
+              <span class="row-main"><span class="row-title">RM Advogados Associados</span><span class="row-desc">Site institucional do escritório Ricardo Marques Advogados Associados.</span></span>
+              <span class="row-meta mono"><span class="row-cat">Profissional</span><span>No ar · rmadvassociados.com.br</span></span>
+              <span class="row-go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li class="row reveal" data-cat="profissional">
+            <a href="https://www.josericardomarques.com.br" target="_blank" rel="noopener">
+              <span class="row-n mono">03</span>
+              <span class="row-main"><span class="row-title">José Ricardo Marques</span><span class="row-desc">Portfólio pessoal do empresário José Ricardo Marques.</span></span>
+              <span class="row-meta mono"><span class="row-cat">Profissional</span><span>No ar · josericardomarques.com.br</span></span>
+              <span class="row-go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li class="row reveal" data-cat="profissional">
+            <a href="https://www.simoneazevdo.com.br" target="_blank" rel="noopener">
+              <span class="row-n mono">04</span>
+              <span class="row-main"><span class="row-title">Simone Azevedo</span><span class="row-desc">Site de Simone Azevedo.</span></span>
+              <span class="row-meta mono"><span class="row-cat">Profissional</span><span>No ar · simoneazevdo.com.br</span></span>
+              <span class="row-go" aria-hidden="true">↗</span>
+            </a>
+          </li>
           <li class="row reveal" data-cat="pessoal">
             <a href="https://github.com/eduspv/Plataforma-Saude-Mental" target="_blank" rel="noopener">
-              <span class="row-n mono">01</span>
+              <span class="row-n mono">05</span>
               <span class="row-main"><span class="row-title">SASBIO · Saúde Mental</span><span class="row-desc">Triagem de riscos psicossociais (NR-01), multi-tenant, com pagamentos por webhook.</span></span>
               <span class="row-meta mono"><span class="row-cat">Pessoal</span><span>Go · React · PostgreSQL</span></span>
               <span class="row-go" aria-hidden="true">↗</span>
             </a>
           </li>
           <li class="row reveal" data-cat="pessoal">
+            <a href="https://github.com/eduspv/roullete" target="_blank" rel="noopener">
+              <span class="row-n mono">06</span>
+              <span class="row-main"><span class="row-title">Randomizer</span><span class="row-desc">Gerenciador de tarefas com Kanban e roleta: a roleta sorteia o que fazer a seguir, com o resultado definido e registrado no servidor.</span></span>
+              <span class="row-meta mono"><span class="row-cat">Pessoal</span><span>Go · Next.js · MongoDB</span></span>
+              <span class="row-go" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li class="row reveal" data-cat="pessoal">
             <a href="https://github.com/eduspv/Chatbot-Whatsapp" target="_blank" rel="noopener">
-              <span class="row-n mono">02</span>
+              <span class="row-n mono">07</span>
               <span class="row-main"><span class="row-title">Chatbot WhatsApp</span><span class="row-desc">Menu interativo com submenus; mensagens recebidas e enviadas via Twilio.</span></span>
               <span class="row-meta mono"><span class="row-cat">Pessoal</span><span>Python · Flask · Twilio</span></span>
               <span class="row-go" aria-hidden="true">↗</span>
@@ -149,7 +186,7 @@
           </li>
           <li class="row reveal" data-cat="pessoal">
             <a href="https://github.com/eduspv/Deleting-Instagram-Bot" target="_blank" rel="noopener">
-              <span class="row-n mono">03</span>
+              <span class="row-n mono">08</span>
               <span class="row-main"><span class="row-title">Instagram Cleaner Bot</span><span class="row-desc">Automação com Selenium que remove curtidas e comentários em lotes. Uso educacional.</span></span>
               <span class="row-meta mono"><span class="row-cat">Pessoal</span><span>Python · Selenium</span></span>
               <span class="row-go" aria-hidden="true">↗</span>
@@ -157,7 +194,7 @@
           </li>
           <li class="row reveal" data-cat="site">
             <a href="https://github.com/eduspv/Anisio-David-Website" target="_blank" rel="noopener">
-              <span class="row-n mono">04</span>
+              <span class="row-n mono">09</span>
               <span class="row-main"><span class="row-title">Site Anisio David</span><span class="row-desc">Site institucional moderno para escritório de advocacia.</span></span>
               <span class="row-meta mono"><span class="row-cat">Site</span><span>React · shadcn-ui · Tailwind</span></span>
               <span class="row-go" aria-hidden="true">↗</span>
@@ -165,33 +202,17 @@
           </li>
           <li class="row reveal" data-cat="site">
             <a href="https://github.com/eduspv/Site-Ricardo-Marques" target="_blank" rel="noopener">
-              <span class="row-n mono">05</span>
+              <span class="row-n mono">10</span>
               <span class="row-main"><span class="row-title">Site Ricardo Marques</span><span class="row-desc">Site institucional em HTML, CSS e JavaScript puros.</span></span>
               <span class="row-meta mono"><span class="row-cat">Site</span><span>HTML · CSS · JavaScript</span></span>
               <span class="row-go" aria-hidden="true">↗</span>
             </a>
           </li>
-          <li class="row reveal" data-cat="pessoal">
-            <a href="https://github.com/eduspv/portfolio" target="_blank" rel="noopener">
-              <span class="row-n mono">06</span>
-              <span class="row-main"><span class="row-title">Portfólio Tech Showcase</span><span class="row-desc">Primeira versão de portfólio, gerada com Lovable. O PortfolioHUB é a versão atual.</span></span>
-              <span class="row-meta mono"><span class="row-cat">Pessoal</span><span>React · TypeScript · Vite</span></span>
-              <span class="row-go" aria-hidden="true">↗</span>
-            </a>
-          </li>
           <li class="row reveal" data-cat="academico">
             <a href="https://github.com/eduspv/Study-Hub-Eduardo-Vidal-" target="_blank" rel="noopener">
-              <span class="row-n mono">07</span>
+              <span class="row-n mono">11</span>
               <span class="row-main"><span class="row-title">Study Hub</span><span class="row-desc">Organização da trajetória na graduação: perfil, disciplinas, entregas e certificados.</span></span>
               <span class="row-meta mono"><span class="row-cat">Acadêmico</span><span>Markdown · Git</span></span>
-              <span class="row-go" aria-hidden="true">↗</span>
-            </a>
-          </li>
-          <li class="row reveal" data-cat="academico">
-            <a href="https://github.com/eduspv/exerciciosrafael" target="_blank" rel="noopener">
-              <span class="row-n mono">08</span>
-              <span class="row-main"><span class="row-title">Exercícios de HTML, CSS e JS</span><span class="row-desc">Dez exercícios de front-end: calculadora, lista de tarefas, jogo de adivinhação e mais.</span></span>
-              <span class="row-meta mono"><span class="row-cat">Acadêmico</span><span>HTML · CSS · JavaScript</span></span>
               <span class="row-go" aria-hidden="true">↗</span>
             </a>
           </li>
@@ -204,57 +225,38 @@
       <div class="wrap about-grid">
         <p class="mono label reveal">03 — Sobre</p>
         <div class="reveal">
-          <p class="about-big">Estudo <em>Ciência da Computação</em> no UniCEUB e gosto de criar soluções que resolvem problemas reais. Comecei como estagiário e fui ampliando meu trabalho, do suporte ao desenvolvimento web.</p>
+          <p class="about-big">Estudo <em>Ciência da Computação</em> no UniCEUB e gosto de criar soluções que resolvem problemas reais. Comecei como estagiário, fui efetivado como PJ em desenvolvimento de software e passei a responder diretamente pelas minhas entregas.</p>
 
           <div class="about-cols">
             <div class="about-text">
               <p>Minha trajetória profissional começou na <strong>SASBIO</strong>, em <strong>maio de 2024</strong>, como estagiário. No início, atuei no suporte tecnológico e operacional, ajudando a resolver problemas e a melhorar processos internos. Também trabalhei com <strong>Excel e Power BI</strong>, criando relatórios, dashboards e ferramentas de controle financeiro.</p>
               <p>Com o tempo, passei a atuar no <strong>desenvolvimento web</strong>: participei da criação e da manutenção de sites com <strong>React</strong>, entre eles os institucionais da <strong>SASBIO</strong> e da <strong>RM Advogados Associados</strong>. Participei ainda da pesquisa e da avaliação de novas tecnologias para a empresa. Foi assim que entendi, na prática, como a tecnologia ajuda uma empresa a funcionar e a crescer.</p>
-              <p>Em paralelo, desenvolvo projetos pessoais e acadêmicos com Go, React, Vue.js, Laravel e bancos de dados relacionais e não relacionais. Daqui em diante, quero me aprofundar em <strong>arquitetura de software</strong>, <strong>desenvolvimento full stack</strong> e <strong>cibersegurança</strong>.</p>
+              <p>Depois de <strong>2 anos de estágio</strong>, fui <strong>efetivado como PJ na área de desenvolvimento de software</strong>, função em que permaneci por cerca de <strong>6 meses</strong>. Nessa etapa, trabalhei no projeto de um <strong>SaaS para o monitoramento de escritórios para a NR-01</strong> (<a href="#destaque">veja o projeto em destaque</a>), atuando de forma individual e <strong>prestando contas</strong> diretamente pelas entregas.</p>
+              <p>Em paralelo, desenvolvo projetos pessoais e acadêmicos com Go, React, Vue.js, Laravel e bancos de dados relacionais e não relacionais. Daqui em diante, quero me aprofundar em <strong>segurança de software</strong>.</p>
             </div>
 
             <ol class="path" aria-label="Evolução profissional">
               <li><span class="mono path-when">Mai 2024</span><b>Estágio na SASBIO</b><span>Suporte tecnológico e operacional; melhoria de processos internos.</span></li>
               <li><span class="mono path-when">Dados</span><b>Excel e Power BI</b><span>Relatórios, dashboards e controle financeiro.</span></li>
               <li><span class="mono path-when">Web</span><b>React e sites institucionais</b><span>SASBIO e RM Advogados Associados; pesquisa de novas tecnologias.</span></li>
-              <li class="path-next"><span class="mono path-when">Próximo</span><b>Arquitetura, full stack e segurança</b><span>Onde quero aprofundar.</span></li>
+              <li><span class="mono path-when">2 anos</span><b>Estágio concluído</b><span>Da operação ao desenvolvimento web, sempre ampliando o escopo.</span></li>
+              <li><span class="mono path-when">PJ · ~6 meses</span><b>Efetivado em desenvolvimento de software</b><span>SaaS de monitoramento para a NR-01 (<a href="#destaque">SASBIO · Saúde Mental</a>), em projeto individual e com prestação de contas direta.</span></li>
+              <li class="path-next"><span class="mono path-when">Próximo</span><b>Segurança de software</b><span>Onde quero me aprofundar.</span></li>
             </ol>
           </div>
 
+          <aside class="focus reveal" aria-label="Foco de aprofundamento">
+            <p class="mono">Onde quero me aprofundar</p>
+            <h3>Segurança <em>de software</em></h3>
+            <p>Quero construir sistemas que já nascem seguros. Na prática, isso já aparece nos meus projetos: autenticação com JWT, controle de acesso por papéis (RBAC), isolamento de dados por empresa e auditoria de ações. O próximo passo é estudar a fundo como proteger e testar o software que eu desenvolvo.</p>
+          </aside>
+
           <dl class="facts mono">
             <div><dt>Formação</dt><dd>Ciência da Computação, UniCEUB</dd></div>
-            <div><dt>Experiência</dt><dd>Estagiário na SASBIO, a partir de maio de 2024</dd></div>
-            <div><dt>Interesses</dt><dd>Desenvolvimento de software e cibersegurança</dd></div>
+            <div><dt>Experiência</dt><dd>SASBIO: estágio de 2 anos (desde maio de 2024) e depois PJ em desenvolvimento, por cerca de 6 meses</dd></div>
+            <div><dt>Foco de estudo</dt><dd>Segurança de software</dd></div>
             <div><dt>Linguagens</dt><dd>JavaScript, TypeScript, Python, Go, PHP, Java, C</dd></div>
           </dl>
-        </div>
-      </div>
-    </section>
-
-    <!-- BOOTCAMP -->
-    <section class="boot" id="bootcamp">
-      <div class="wrap">
-        <p class="mono label reveal">04 — Bootcamp I</p>
-        <div class="boot-head reveal">
-          <h2>Versionamento<br><em>de verdade</em></h2>
-          <p>Este repositório é a entrega intermediária do Bootcamp I. Nasceu com uma versão <strong>1.0.0</strong> e evoluiu em commits separados, no padrão Conventional Commits. O histórico abaixo é o real, direto do Git.</p>
-        </div>
-
-        <ol class="timeline reveal">
-          <li><span class="mono tl-tag">v1.0.0</span><div><b>Versão inicial</b><span class="mono">8c8c766 · feat: estrutura inicial do PortfolioHUB e site v1.0</span></div></li>
-          <li><span class="mono tl-tag tl-dim">commit</span><div><b>Filtro de projetos</b><span class="mono">0722c81 · feat: filtro de projetos por tecnologia</span></div></li>
-          <li><span class="mono tl-tag tl-dim">commit</span><div><b>Tema claro e escuro</b><span class="mono">beaa7a2 · feat: alternância de tema claro e escuro</span></div></li>
-          <li><span class="mono tl-tag">v1.1.0</span><div><b>Histórico documentado</b><span class="mono">32ade2e · docs: registra histórico de versões e a v1.1.0</span></div></li>
-          <li><span class="mono tl-tag tl-dim">commit</span><div><b>PDF de entrega e capturas</b><span class="mono">229dd9c · docs: adiciona PDF de entrega e capturas de tela</span></div></li>
-          <li><span class="mono tl-tag tl-dim">commit</span><div><b>Redesign visual e trajetória</b><span class="mono">2f4d53d · feat: redesign visual completo e trajetória profissional na seção Sobre</span></div></li>
-          <li><span class="mono tl-tag">v2.0.0</span><div><b>Nova identidade visual</b><span class="mono">tag v2.0.0 · inclui documentação e PDF atualizados</span></div></li>
-        </ol>
-
-        <div class="boot-links reveal">
-          <a class="pill magnetic" href="https://github.com/eduspv/PortfolioHUB/commits/main" target="_blank" rel="noopener">Commits <span aria-hidden="true">↗</span></a>
-          <a class="pill magnetic" href="https://github.com/eduspv/PortfolioHUB/tags" target="_blank" rel="noopener">Tags <span aria-hidden="true">↗</span></a>
-          <a class="pill magnetic" href="https://github.com/eduspv/PortfolioHUB/tree/main/documentacao" target="_blank" rel="noopener">Documentação <span aria-hidden="true">↗</span></a>
-          <a class="pill magnetic" href="https://github.com/eduspv/PortfolioHUB" target="_blank" rel="noopener">Repositório <span aria-hidden="true">↗</span></a>
         </div>
       </div>
     </section>
@@ -262,11 +264,11 @@
     <!-- COMPETÊNCIAS -->
     <section class="skills" id="competencias">
       <div class="wrap">
-        <p class="mono label reveal">05 — Competências</p>
+        <p class="mono label reveal">04 — Competências</p>
         <h2 class="reveal">Ferramentas<br><em>que uso</em></h2>
         <div class="skill-grid">
           <div class="skill reveal"><h3 class="mono">Linguagens</h3><ul><li>JavaScript</li><li>TypeScript</li><li>Python</li><li>Go</li><li>PHP</li><li>Java</li><li>C</li></ul></div>
-          <div class="skill reveal"><h3 class="mono">Frameworks e bibliotecas</h3><ul><li>React</li><li>Node.js</li><li>Laravel</li><li>Gin</li><li>Flask</li><li>Tailwind CSS</li><li>Selenium</li></ul></div>
+          <div class="skill reveal"><h3 class="mono">Frameworks e bibliotecas</h3><ul><li>React</li><li>Next.js</li><li>Node.js</li><li>Laravel</li><li>Gin</li><li>Flask</li><li>Tailwind CSS</li><li>Selenium</li></ul></div>
           <div class="skill reveal"><h3 class="mono">Bancos de dados</h3><ul><li>PostgreSQL</li><li>MySQL</li><li>MongoDB</li><li>SQLite</li></ul></div>
           <div class="skill reveal"><h3 class="mono">Ferramentas</h3><ul><li>Git e GitHub</li><li>Docker</li><li>Postman / Insomnia</li><li>VS Code</li><li>Figma</li></ul></div>
           <div class="skill reveal"><h3 class="mono">Conhecimentos</h3><ul><li>APIs REST</li><li>Autenticação JWT</li><li>Controle de acesso (RBAC)</li><li>HTML5 e CSS3</li></ul></div>
@@ -279,7 +281,7 @@
   <!-- CONTATO -->
   <footer class="contact" id="contato">
     <div class="wrap">
-      <p class="mono label">06 — Contato</p>
+      <p class="mono label">05 — Contato</p>
       <h2>Vamos<br><em>conversar?</em></h2>
       <a class="mail" href="mailto:eduardospvidal@gmail.com"><span>eduardospvidal</span><span>@gmail.com</span></a>
       <div class="contact-row">
